@@ -1,0 +1,6 @@
+Inigo 9 8 1
+Roberts 8 5 3
+Vizzini 2 0 2
+Fezzik 11 6 5
+Buttercup 6 3 3
+Humperdinck 5 2 3

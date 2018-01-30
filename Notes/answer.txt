@@ -1,0 +1,28 @@
+1 c
+2 d
+3 d
+4 d
+5 a
+6 d
+7 e ?
+8 e ?
+9 d
+10 d
+11 b
+12 b
+13 c
+14 b
+15 c
+16 b
+17 d
+18 c
+19 c
+20 c
+21 b
+22 c
+23 d
+24 b
+25 c
+26 b
+27 Arraylist's will automatically resize when adding and removing elements
+  this allows them to keep track of how many initialized variables are inside by using the .size() method

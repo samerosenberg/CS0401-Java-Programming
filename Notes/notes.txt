@@ -1,0 +1,4 @@
+questions about insert in order
+binary search
+proj 3
+how insert in order uses bsearch

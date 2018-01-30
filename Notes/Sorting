@@ -1,0 +1,34 @@
+"Big Oh" analysis
+n = # of elements in INPUT
+O(f(n)) = # (order of magnitude) of instructions that have to be done
+O(l) not affected by n
+array of length n needs O(n) to print every element
+O(1) = accessing an array element (not affected by size)
+O(n) = print an array, find min-max, one sweep of array
+O(n^2) = bubble sort, insertion sort, selection sort, insert in order
+O(2^n) = exponential, power set
+O(n!) = permutations
+BUBBLE SORT: O(n^2) after every sweep it stops one short than it did before
+7 1 6 4 3 9 11 8 -> 1 7 6 4 3 9 11 8 -> 1 6 7 4 3 9 11 8 -> 1 6 4 7 3 9 11 8 -> 1 6 4 3 7 9 11 8 -> 1 6 4 3 7 9 8 11
+1 4 6 3 7 9 8 11 -> 1 4 3 6 7 9 8 11 -> 1 4 3 6 7 8 9 11
+1 3 4 6 7 8 9 11
+SELECTION SORT: O(n^2) a lot less swaps than bubble sort
+14 7 13 2 6 1 9
+? - min of array should at the first spot
+1 7 13 2 6 14 9
+X ? - next min
+1 2 13 7 6 14 9
+
+insertInOrder(int[], int count, int newVal)
+  for(i=indexoflast; downto1; i--)
+    if newVal < arr[i]
+      copy arr[i] up one to arr[i+1]
+    else
+      insert in arr[i+1]
+
+
+Binary Search
+O(log(2))
+numbers have to be sorted
+
+asb158@pitt.edu

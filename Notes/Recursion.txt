@@ -1,0 +1,7 @@
+- A problem solving technique where an algorithm is defined in terms of itself
+- recursive algorithm breaks down input or the search space ad applies the same logic to a smaller and smaller peive of the problem until the final
+  piece is solvable without recursion
+- "divide and conquer"
+
+- any algorithm that is implemented using a loop can be written using recursion
+- moving in the reverse direction is not always possible unless you maintain an additional data structure
